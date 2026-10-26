@@ -1,0 +1,7 @@
+# DeAndre Jordan
+
+DeAndre Jordan
+
+Hyland DeAndre Jordan Jr. (born July 21, 1988) is an American professional basketball player for the New Orleans Pelicans of the National Basketball Association (NBA). He played one season of college basketball for the Texas A&M Aggies.
+Jordan was selected by the Los Angeles Clippers in the second round of the 2008 NBA draft with the 35th overall pick. He spent ten seasons with the Clippers before signing in free agency with the Dallas Mavericks in free agency in July 2018. He was traded to the New York Knicks in January 2019 and joined the Brooklyn Nets in July of the same year. He was dealt to the Detroit Pistons in September 2021 and reached a contract buyout agreement before signing with the Los Angeles Lakers in the same month. He was waived by the Lakers in March 2022 and subsequently joined the Philadelphia 76ers. He then signed with the Denver Nuggets in July 2022, with whom he won his first NBA championship in 2023.
+Jordan is a three-time All-NBA and two-time NBA All-Defensive Team member, and has twice led the NBA in rebounding. In 2017, he was named an NBA All-Star for the first time. As of 2025, Jordan holds the NBA record for highest career regular season and postseason field goal percentage, at 67.4% and 67.0%, respectively. He is the Clippers' franchise leader in games played, rebounds, and blocks. He also won a gold medal at the 2016 Summer Olympics as a member of the U.S. Olympic team.

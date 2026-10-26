@@ -1,0 +1,5 @@
+# George Yardley
+
+George Yardley
+
+George Harry Yardley III (November 3, 1928 – August 12, 2004) was an American basketball player. He was the first player in National Basketball Association (NBA) history to score 2,000 points in one season, breaking the 1,932-point record held by George Mikan. Yardley was enshrined in the Naismith Memorial Basketball Hall of Fame in 1996.

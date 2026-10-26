@@ -1,0 +1,7 @@
+# John Havlicek
+
+John Havlicek
+
+John Joseph Havlicek ( HAV-lih-chek; April 8, 1940 – April 25, 2019), often nicknamed Hondo, was an American professional basketball player who spent his entire 16-year career with the Boston Celtics of the National Basketball Association (NBA). Havlicek won eight NBA championships — one of three NBA players with an unsurpassed 8–0 record in the NBA Finals series — and was voted the NBA Finals MVP in 1974.
+A swingman, Havlicek played college basketball for the Ohio State Buckeyes from 1959 to 1962, winning an NCAA championship in 1960. He was selected by the Celtics in the 1962 NBA draft and played with the team until his retirement in 1978. A 13-time NBA All-Star, Havlicek was named to the All-NBA First Team four times and to the All-NBA Second Team seven times. He was also named to the NBA All-Defensive First Team on five occasions and to the NBA All-Defensive Second Team three times. Havlicek is known for his stamina and his hustle as well as his abilities.
+During his career with the Celtics, he became known for stealing the ball to save the game–and the Celtics' playoff hopes–near the end of game seven in the 1965 Eastern Conference Finals. Havlicek served as captain of the Celtics from 1969 to 1978, and was named NBA Finals MVP in 1974. Following his retirement, his number 17 jersey was retired by the Celtics. Havlicek was inducted into Naismith Memorial Basketball Hall of Fame in 1984.

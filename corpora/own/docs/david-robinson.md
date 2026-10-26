@@ -1,0 +1,7 @@
+# David Robinson
+
+David Robinson
+
+David Maurice Robinson (born August 6, 1965) is an American former professional basketball player. Nicknamed "the Admiral" for his service in the U.S. Navy, he spent his entire 14-year career with National Basketball Association (NBA) franchise San Antonio Spurs and is now a minority owner of the team. He is widely considered one of the greatest centers in both college basketball and NBA history.
+Robinson played basketball for the United States Naval Academy and was selected by the Spurs as the first overall pick of the 1987 NBA draft, but because he had to fulfill his active-duty obligation with the Navy, he would not play his first game until 1989. Among other accolades, he was a two-time NBA champion (1999 and 2003), a 10-time NBA All-Star, a 10-time All-NBA Team member, the 1995 NBA Most Valuable Player (MVP), the 1992 NBA Defensive Player of the Year (DPOY), a two-time Olympic Gold Medal winner (1992 and 1996), and a two-time Naismith Memorial Basketball Hall of Fame inductee (2009 for his individual career; 2010 as a member of the gold medal-winning "Dream Team" at the 1992 Barcelona Olympics).
+Robinson is also a two-time U.S. Olympic Hall of Fame inductee (2008 individually, 2009 as a member of the 1992 Olympic team). He was honored as one of the league's all-time players by being named to the NBA 50th Anniversary (1996) and 75th Anniversary Teams (2021).

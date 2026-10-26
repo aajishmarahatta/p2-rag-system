@@ -1,0 +1,8 @@
+# Dikembe Mutombo
+
+Dikembe Mutombo
+
+Dikembe Mutombo Mpolondo Mukamba Jean-Jacques Wamutombo (June 25, 1966 – September 30, 2024) was a Congolese-American professional basketball player who played center in the National Basketball Association (NBA) for 18 seasons. Nicknamed "Mt. Mutombo", he is commonly regarded as one of the best shot-blockers and defensive players of all time. Outside of basketball, he was known for his humanitarian work.
+A 7-foot-2-inch (2.18 m) center, Mutombo moved to the United States from the Democratic Republic of the Congo at age 21 to attend Georgetown University with the hope of eventually earning a medical degree and returning to the DRC to practice medicine. Those plans changed when John Thompson, coach of the Georgetown Hoyas, recruited him to play college basketball. Mutombo played three seasons for Georgetown, establishing a reputation as a tenacious defender.
+In 1991, the Denver Nuggets chose him with the fourth overall pick of the NBA draft. During his NBA career, he played for six teams, in the NBA Finals for the Philadelphia 76ers in 2001 and for the New Jersey Nets in 2003. He received the NBA Defensive Player of the Year Award four times, tied with Ben Wallace and Rudy Gobert for the most awards. He led the NBA in blocked shots three times, led the league in rebounds twice, and was named to eight All-Star teams. Mutombo, with 3,289 career blocks, ranks second among NBA career leaders in blocked shots.
+At the conclusion of the 2009 NBA playoffs, Mutombo retired and his number 55 jersey was retired by the Nuggets and Atlanta Hawks. He was inducted into the Naismith Memorial Basketball Hall of Fame in 2015.

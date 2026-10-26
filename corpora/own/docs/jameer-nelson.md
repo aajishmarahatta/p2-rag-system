@@ -1,0 +1,5 @@
+# Jameer Nelson
+
+Jameer Nelson
+
+Jameer Lamar Nelson Sr. (born February 9, 1982) is an American former professional basketball player who currently serves as the executive vice president of basketball operations for the Philadelphia 76ers of the National Basketball Association (NBA). He played college basketball for the Saint Joseph's Hawks, where he was named national college player of the year in 2004. Drafted 20th overall in the 2004 NBA draft, Nelson spent the first ten years of his NBA career with the Orlando Magic. In 2009, he was named an All-Star and made an appearance in the NBA Finals with the Magic. He also played in the NBA for the Dallas Mavericks, Boston Celtics, Denver Nuggets, New Orleans Pelicans, and Detroit Pistons.

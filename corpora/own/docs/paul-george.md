@@ -1,0 +1,7 @@
+# Paul George
+
+Paul George
+
+Paul Clifton Anthony George Sr. (born May 2, 1990) is an American professional basketball player for the Boston Celtics of the National Basketball Association (NBA). Nicknamed "PG-13", he is a nine-time NBA All-Star and six-time member of the All-NBA Team, as well as a four-time member of the NBA All-Defensive Team.
+George played high school basketball for Knight High School before playing two seasons of college basketball for the Fresno State Bulldogs. He was selected by the Indiana Pacers with the 10th overall pick of the 2010 NBA draft, and earned NBA All-Rookie Second Team honors. He was named the NBA Most Improved Player in 2013, when he also earned his first All-Star selection and led the team to their first Eastern Conference Finals trip since 2004.
+George suffered a broken leg in 2014 while competing for a roster spot on the United States national team for the FIBA Basketball World Cup. He missed most of the 2014–15 season, but recovered to become an All-Star again in 2016, when he also won an Olympic gold medal. He was traded to the Oklahoma City Thunder in 2017, and played two seasons for the Thunder before he was traded to the Los Angeles Clippers in 2019. The Clippers appeared in the playoffs four times during his tenure, including their first trip to the Conference Finals in 2021. George signed with the Philadelphia 76ers in 2024, where he played until he was traded to the Boston Celtics in 2026.

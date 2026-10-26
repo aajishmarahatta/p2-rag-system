@@ -1,0 +1,6 @@
+# Domantas Sabonis
+
+Domantas Sabonis
+
+Domantas Sabonis (Lithuanian pronunciation: [ˈdoːmɐntɐs sɐˈboːnʲɪs]; born May 3, 1996) is a Lithuanian-American professional basketball player for the Sacramento Kings of the National Basketball Association (NBA) and the Lithuanian national team. Son of the Hall of Fame player Arvydas Sabonis, Sabonis is a two-time All-NBA Team member, three-time NBA All-Star, and has led the league in rebounds three times.
+Sabonis started his career in Spain with Unicaja Málaga. He then moved to the United States and played college basketball for the Gonzaga Bulldogs. After being drafted 11th overall in the 2016 NBA draft by the Orlando Magic, Sabonis was traded to the Oklahoma City Thunder on draft night, spending his rookie season with the team before being traded to the Indiana Pacers in 2017. He played five seasons for the Pacers and was named an All-Star twice during his tenure. In 2022, Sabonis was traded to the Sacramento Kings for Tyrese Haliburton. Named to his first All-NBA team and third All-Star selection in 2023, he led the Kings alongside De'Aaron Fox to the third seed in the 2023 NBA playoffs and helped them break their NBA record 16-season playoff drought.

@@ -1,0 +1,7 @@
+# Tyrese Maxey
+
+Tyrese Maxey
+
+Tyrese Kendrid Maxey (born November 4, 2000) is an American professional basketball player for the Philadelphia 76ers of the National Basketball Association (NBA). He is known for his elite speed, dribbling, and shot-making. He played college basketball for the Kentucky Wildcats.
+Born in Dallas, Texas, Maxey was a shooting guard for South Garland High School, helping the team to their first-ever Texas state high school basketball tournament appearance in 2018. A five-star recruit as early as his sophomore year of high school, Maxey contemplated leaving high school early to play for the Kentucky Wildcats, but ultimately stayed at South Garland, where he was a McDonald's All-American and Texas Mr. Basketball during his senior year. He then played for the Wildcats, where he would set a school record of 26 points in his collegiate debut.
+After Maxey's freshman season at Kentucky was interrupted by the COVID-19 pandemic, he elected to enter the 2020 NBA draft, where the 76ers selected him 21st overall with their first-round pick. Maxey received limited playing time during his rookie season, making his first NBA start in a game where the 76ers could only field the league's minimum number of players. However, Ben Simmons's refusal to play for the 76ers the following season gave Maxey an opportunity to become the team's starting point guard. In his fourth season, Maxey won the Most Improved Player Award and earned his first All-Star selection in 2024.

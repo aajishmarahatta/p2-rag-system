@@ -1,0 +1,6 @@
+# Joel Embiid
+
+Joel Embiid
+
+Joel Hans Embiid ( joh-EL em-BEED; born 16 March 1994) is a Cameroonian American professional basketball player for the Philadelphia 76ers of the National Basketball Association (NBA). After one year of college basketball with the Kansas Jayhawks, he was drafted third overall by the 76ers in the 2014 NBA draft. The 7-foot (2.13 m) center is a seven-time NBA All-Star, a five-time member of the All-NBA Team, a three-time member of the All-Defensive Team, and a two-time NBA scoring champion. He was named the NBA Most Valuable Player (MVP) in 2023. Embiid also won a gold medal on the 2024 U.S. Olympic team.
+Multiple foot and knee injuries delayed Embiid's debut for two seasons until 2016–17 when he was named to the NBA All-Rookie First Team despite playing only 31 games. He nicknamed himself "the Process" to embrace the era in 76ers history in which he began his career. Embiid led the NBA in scoring during the 2021–22 and 2022–23 seasons, becoming the first center to do so since Shaquille O'Neal (2000), and was also the first center since Moses Malone (1982) to average over 30 points per game, while also being the first foreign player to lead the NBA in scoring.

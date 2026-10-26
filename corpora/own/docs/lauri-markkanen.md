@@ -1,0 +1,7 @@
+# Lauri Markkanen
+
+Lauri Markkanen
+
+Lauri Elias Markkanen (; born 22 May 1997) is a Finnish professional basketball player for the Utah Jazz of the National Basketball Association (NBA) and the Finland national team. Nicknamed "the Finnisher", he is the son of Finnish basketball players Pekka and Riikka Markkanen, and the younger brother of footballer Eero Markkanen.
+Starting his career with HBA-Märsky in the Finnish second-tier league, Markkanen represented Finland at the FIBA U18 EuroBasket in 2015 and the FIBA U20 EuroBasket in 2016, and was the top scorer in both tournaments. He moved to the United States and played college basketball for the Arizona Wildcats in the 2016–17 season, where he earned first-team All-Pac-12 honours in his lone year with the team. He was selected seventh overall in the 2017 NBA draft by the Minnesota Timberwolves before being included in a draft-night trade to the Chicago Bulls for Jimmy Butler. Following a stint with the Cleveland Cavaliers, Markkanen experienced a career resurgence in his first year with the Jazz, earning his first All-Star selection and winning the Most Improved Player Award in 2023. He also led Finland in the 2023 FIBA Basketball World Cup tournament. After two successful seasons with the Jazz, Markkanen signed a five-year contract extension with the franchise.
+Markkanen was named the Finnish Athlete of the Year in 2023, as the first basketball player ever to win the award.

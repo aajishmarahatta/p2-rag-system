@@ -1,0 +1,8 @@
+# Kawhi Leonard
+
+Kawhi Leonard
+
+Kawhi Anthony Leonard ( kə-WHY; born June 29, 1991) is an American professional basketball player for the Toronto Raptors of the National Basketball Association (NBA). A two-time NBA champion and two-time Finals MVP, he is a seven-time All-Star and seven-time member of the All-NBA Team (including three first-team selections). Nicknamed the "Claw" or "Klaw" for his ball-hawking skills and exceptionally large hands, Leonard is often regarded as one of the greatest two-way players in NBA history, earning seven All-Defensive Team selections and winning Defensive Player of the Year honors in 2015 and 2016. In 2021, he was named to the NBA 75th Anniversary Team.
+Leonard played two seasons of college basketball for San Diego State. He was selected 15th overall by the Indiana Pacers in the 2011 NBA draft before being traded to the San Antonio Spurs on draft night.
+With the Spurs, Leonard won an NBA championship in 2014 and was named the Finals Most Valuable Player. After seven seasons with the Spurs, Leonard was traded to the Toronto Raptors in 2018. In his only season with the Raptors in 2019, he led the Raptors to their first NBA championship and won his second Finals MVP award (one of only three players to win Finals MVP with multiple teams, along with Kareem Abdul-Jabbar and LeBron James). He subsequently moved to his hometown of Los Angeles and signed with the Los Angeles Clippers as a free agent in July 2019. In 2021, Leonard led the team to the conference finals for the first time in franchise history. In 2026, Leonard was traded back to the Raptors.
+Leonard was awarded Associated Press Athlete of the Year in 2019.

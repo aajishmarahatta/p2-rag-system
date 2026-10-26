@@ -1,0 +1,5 @@
+# Michael Finley
+
+Michael Finley
+
+Michael Howard Finley (born March 6, 1973) is an American former professional basketball player who is an interim general manager and vice president of player personnel for the Dallas Mavericks of the National Basketball Association (NBA). He played 15 seasons in the NBA, predominantly with the Mavericks, but also for the Phoenix Suns (who drafted him in 1995), the San Antonio Spurs, and the Boston Celtics. He was a two-time NBA All-Star and won an NBA championship with the Spurs in 2007.

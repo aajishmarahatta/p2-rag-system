@@ -1,0 +1,7 @@
+# Deni Avdija
+
+Deni Avdija
+
+Deni Avdija ( DEN-ee av-DEE-ya; Hebrew: דֶנִי אָבְדִיָה, Serbian Cyrillic: Дени Авдија; born 3 January 2001) is an Israeli professional basketball player for the Portland Trail Blazers of the National Basketball Association (NBA). He plays the small forward position, and is nicknamed "Turbo" for his fast-paced drive and aggressive playing style. Prior to the NBA, he played for Maccabi Tel Aviv in Israel. From 2020 to 2024, he played for the Washington Wizards. In 2024, Avdija was traded to the Portland Trail Blazers.
+The son of former Serbian-Gorani basketball player Zufer Avdija, he started playing basketball in the fourth grade for his hometown club Bnei Herzliya Basket, and then in 2013 for Maccabi Tel Aviv. He excelled as a youth player. He debuted for their senior team in 2017, at age 16, becoming the youngest player in club history. Two years later, he became the youngest player to ever win the Israeli Basketball Premier League MVP award, and led his team to the Israeli Basketball Premier League championship. He deferred his mandatory Israel Defense Forces (IDF) service until 2020, when NBA games were suspended during the COVID-19 pandemic.
+In 2020, Avdija declared for the NBA draft and was drafted by the Washington Wizards with the 9th overall pick. He is also a member of the Israeli senior national basketball team. He has won two gold medals for Israel at the youth level, including at the 2019 FIBA U20 European Championship, where he was named tournament's most valuable player.

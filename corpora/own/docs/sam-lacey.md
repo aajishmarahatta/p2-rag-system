@@ -1,0 +1,6 @@
+# Sam Lacey
+
+Sam Lacey
+
+Samuel Lacey Jr. (March 28, 1948 – March 14, 2014) was an American basketball player. He played professionally in the National Basketball Associations (NBA) spending the majority of his 13-year career with the Cincinnati Royals/Kansas City–Omaha Kings/Kansas City Kings franchise. Lacey was selected as an NBA All-Star while playing for the Kings in 1975. The Kings retired his jersey No. 44 shortly after his retirement from the NBA. He is among the top 50 players in NBA history in total rebounds (as of 2025–26).
+Lacey was posthumously inducted into the National Collegiate Basketball Hall of Fame in 2024. He played college basketball for the New Mexico State Aggies, where he was a key player in leading the team to three consecutive NCAA University Division basketball tournaments. He averaged 16.3 points and 14.2 rebounds per game over three varsity seasons with the Aggies; and holds the Aggies records for most rebounds in a game, most rebounds and highest rebounding average in a season, and most rebounds in a career (through 2025–26). He received the nickname "Slammin' Sam" for his defensive prowess in shot blocking. In February 2026, the Aggies retired his jersey No. 44, and presented his daughter with Lacey's National Collegiate Basketball Hall of Fame medal.

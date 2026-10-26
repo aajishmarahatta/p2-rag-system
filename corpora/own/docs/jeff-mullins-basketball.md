@@ -1,0 +1,5 @@
+# Jeff Mullins (basketball)
+
+Jeff Mullins (basketball)
+
+Jeffrey Vincent Mullins (born March 18, 1942) is an American former basketball player and coach. He played college basketball with the Duke Blue Devils and in the National Basketball Association (NBA) with the St. Louis Hawks and San Francisco/Golden State Warriors. He was a three-time NBA All-Star. Mullins served as the head basketball coach at the University of North Carolina at Charlotte from 1985 to 1996, being named the Sun Belt Conference Coach of the Year in 1988, and taking his team to the NCAA Division I men's basketball tournament three times. As a college player, he was the Atlantic Coast Conference (ACC) Player of the Year and the ACC's athlete of the year (1963–64) and first-team All-ACC for three consecutive seasons (1961 to 1964). He was a consensus second-team All-American in 1964. His Duke teams twice reached the Final Four in the NCAA Division I men's basketball tournament, and he was selected to the All-Tournament Team in 1964. He scored 43 points in one NCAA tournament game.

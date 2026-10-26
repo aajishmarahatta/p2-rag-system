@@ -1,0 +1,7 @@
+# Paul Pierce
+
+Paul Pierce
+
+Paul Anthony Pierce (born October 13, 1977) is an American former professional basketball player. He played 19 seasons in the National Basketball Association (NBA), predominantly with the Boston Celtics.
+Pierce was a high school McDonald's All-American before earning consensus first-team All-America honors as a junior playing college basketball for the Kansas Jayhawks. After being chosen by the Boston Celtics with the 10th overall pick in the 1998 NBA draft, Pierce spent the first 15 years of his career with Boston. Pierce's nickname, "the Truth," was given to him by Shaquille O'Neal in 2001. He earned 10 All-Star selections and became a four-time All-NBA team member throughout his 19 year career. Pierce combined with Kevin Garnett and Ray Allen in 2007 to form a "Big Three" that led Boston to two NBA Finals and an NBA championship in 2008. Pierce was named NBA Finals Most Valuable Player in 2008. In 2021, Pierce was honored by being named to the NBA 75th Anniversary Team and was inducted into the Naismith Memorial Basketball Hall of Fame.
+In July 2013, Pierce was traded to the Brooklyn Nets along with teammates Kevin Garnett and Jason Terry. He signed with the Washington Wizards as a free agent in 2014. After one season with the Wizards, Pierce signed with the Los Angeles Clippers. He spent two seasons with the Clippers before retiring in 2017. On July 17, 2017, the Celtics signed Pierce to a contract, enabling him to retire as a member of the organization with which he spent his first 15 NBA seasons.

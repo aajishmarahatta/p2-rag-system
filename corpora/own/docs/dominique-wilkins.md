@@ -1,0 +1,7 @@
+# Dominique Wilkins
+
+Dominique Wilkins
+
+Jacques Dominique Wilkins (born January 12, 1960) is an American former professional basketball player who primarily played for the Atlanta Hawks of the National Basketball Association (NBA). Wilkins is a nine-time NBA All-Star, a seven-time All-NBA Team member and is widely viewed as one of the most acrobatic slam dunkers in NBA history, earning the nickname "the Human Highlight Film". In October 2021, he was honored as one of the league's greatest players of all time by being named to the NBA 75th Anniversary Team. Wilkins is the leader in most years with the Hawks, 12 seasons, the most games played in Hawks franchise history, with 882, the most minutes played with 32,545, the most career points with 23,292, and the most points per game, with 26.4 points per game.
+Wilkins led the NBA in scoring in the 1985–86 season. In 2006, Wilkins was inducted into the Naismith Memorial Basketball Hall of Fame.
+In addition to his 11 seasons with the Hawks, Wilkins had short stints with the Los Angeles Clippers, the Boston Celtics, Panathinaikos of the Greek Basket League, with whom he won his first titles (the FIBA European League and the Greek Cup), Fortitudo Bologna of Lega Basket Serie A, the San Antonio Spurs, and the Orlando Magic before he retired in 1999. As a member of the U.S. men's national team, Wilkins won gold at the 1994 FIBA World Championship.

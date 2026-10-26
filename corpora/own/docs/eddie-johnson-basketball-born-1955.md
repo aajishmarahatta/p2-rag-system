@@ -1,0 +1,6 @@
+# Eddie Johnson (basketball, born 1955)
+
+Eddie Johnson (basketball, born 1955)
+
+Edward Lee Johnson Jr. (February 24, 1955 – October 26, 2020) was an American professional basketball player. He played 10 seasons in the National Basketball Association (NBA) – mainly as a member of the Atlanta Hawks – from 1977 to 1987. Johnson was a two-time NBA-All-Star with the Hawks in 1980 and 1981, and earned two nominations to the NBA All-Defensive Second Team in 1979 and 1980. He was nicknamed "Fast Eddie" for his speed and quickness on the court.
+Johnson's notorious off-court behaviour due to drug abuse harmed his reputation as a player. He was traded by the Hawks to the Cleveland Cavaliers for the end of the 1985–86 season. He played for the Tampa Bay Thrillers in the Continental Basketball Association (CBA) during the 1986–87 season in an attempt to return to the NBA and received a mid-season call-up to play for the Seattle SuperSonics in what would be his final professional stint. Johnson's playing career ended when he received a suspension by the NBA due to a cocaine addiction in 1987. His life after basketball delved further into criminal activities and culminated in Johnson being sentenced to life in prison for sex crimes on a minor in 2008. He died of an undisclosed illness while serving his sentence.
