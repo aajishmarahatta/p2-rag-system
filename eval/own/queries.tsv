@@ -12,3 +12,23 @@ q07	identifier	Which Canadian players have won NBA MVP?	hand
 q08	paraphrase	Which players are described as playing both point guard and shooting guard?	hand
 q09	paraphrase	Which former players later won an NBA championship as a head coach?	hand
 q10	paraphrase	Which players have a son who also played in the NBA?	hand
+q11	identifier	Winners of the John R. Wooden Award for the top men's college player	claude
+q12	identifier	Won the NBA Three-Point Contest	claude
+q13	identifier	Played for the Minneapolis Lakers	claude
+q14	identifier	Played for Panathinaikos in Greece	claude
+q15	identifier	Played for the Harlem Globetrotters before reaching the NBA	claude
+q16	identifier	Appeared in the movie Uncut Gems	claude
+q17	identifier	Awarded NBA Executive of the Year	claude
+q18	mixed	Who went on to run a team's front office as president of basketball operations?	claude
+q19	mixed	Served as player-coach in the final seasons of his playing career	claude
+q20	mixed	Has a twin brother who also played in the NBA	claude
+q21	mixed	Led the league in steals in a season	claude
+q22	mixed	Players with Dominican, Jamaican or U.S. Virgin Islands roots	claude
+q23	mixed	Career leaders in triple-doubles	claude
+q24	mixed	Inducted into the Basketball Hall of Fame twice	claude
+q25	paraphrase	Was never picked in the NBA draft but still reached the league	claude
+q26	paraphrase	Honored with Hall of Fame induction after their death	claude
+q27	paraphrase	Players who also acted in movies or on television	claude
+q28	paraphrase	Retired players who became owners or part-owners of a team	claude
+q29	paraphrase	Played club basketball in the Italian league	claude
+q30	paraphrase	Holds the NBA record for most points in one game	claude
