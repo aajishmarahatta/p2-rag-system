@@ -2,3 +2,13 @@
 # origin is hand when you wrote the query yourself and claude when a model drafted it; at least 10 must be hand.
 # class is a word you choose, for example identifier, paraphrase or mixed as in the shared sets; scores are reported per class.
 # Lines that start with # are comments, so delete these lines or keep them, as you like.
+q01	mixed	Which NBA All-Star(s) were traded from the Los Angeles Lakers to the Dallas Mavericks?	hand
+q02	identifier	Which team did LeBron James win the 2016 NBA Finals with?	hand
+q03	mixed	Which NBA All-Star was drafted in the first round by the Golden State Warriors?	hand
+q04	mixed	Which players won an NCAA national championship while playing for UConn?	hand
+q05	identifier	What specific award did Luka Doncic win for the 2018-19 season?	hand
+q06	paraphrase	Which players won NBA MVP, an NBA championship, and Finals MVP in the same season?	hand
+q07	identifier	Which Canadian players have won NBA MVP?	hand
+q08	paraphrase	Which players are described as playing both point guard and shooting guard?	hand
+q09	paraphrase	Which former players later won an NBA championship as a head coach?	hand
+q10	paraphrase	Which players have a son who also played in the NBA?	hand

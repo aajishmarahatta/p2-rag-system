@@ -2,3 +2,22 @@
 # rel is 1 for a relevant document, unless EVAL.md declares graded labels; every query needs at least one relevant document.
 # 598E: commit your filled-in PREREG.md before the first judgment line goes into this file.
 # Lines that start with # are comments.
+q01 0 anthony-davis 1
+q02 0 lebron-james 1
+q03 0 stephen-curry 1
+q03 0 klay-thompson 1
+q03 0 chris-mullin 1
+q04 0 kemba-walker 1
+q04 0 richard-hamilton-basketball 1
+q05 0 luka-doncic 1
+q06 0 lebron-james 1
+q06 0 shai-gilgeous-alexander 1
+q07 0 shai-gilgeous-alexander 1
+q08 0 tyler-herro 1
+q08 0 joe-dumars 1
+q09 0 bill-sharman 1
+q09 0 doc-rivers 1
+q09 0 lenny-wilkens 1
+q09 0 rudy-tomjanovich 1
+q10 0 tim-hardaway 1
+q10 0 glenn-robinson 1
