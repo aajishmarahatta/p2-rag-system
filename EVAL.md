@@ -144,26 +144,94 @@ TODO: describe your gold set and your relevance rule.
 Scores per system on your gold set.
 
 <!-- p2:begin own -->
-_No scored runs here yet: run `uv run p2 run --corpus own --system bm25` (or `--all`), then `uv run p2 score`._
+| System | Recall@10 | MRR@10 | nDCG@10 |
+| --- | ---: | ---: | ---: |
+| bm25 | 0.734 | 0.769 | 0.676 |
+| dense | 0.447 | 0.448 | 0.375 |
+| hybrid | 0.629 | 0.693 | 0.553 |
+| rerank | 0.735 | 0.878 | 0.731 |
+
+30 judged queries; nDCG uses binary labels; a random ranking of the 300 documents would get recall@10 near 0.033.
 <!-- p2:end own -->
 
 The same scores per query class.
 
 <!-- p2:begin own-classes -->
-_No scored runs here yet: run `uv run p2 run --corpus own --system bm25` (or `--all`), then `uv run p2 score`._
+| System | Metric | mixed (n=10) | identifier (n=10) | paraphrase (n=10) |
+| --- | --- | ---: | ---: | ---: |
+| bm25 | Recall@10 | 0.752 | 0.975 | 0.475 |
+| bm25 | MRR@10 | 0.808 | 0.933 | 0.567 |
+| bm25 | nDCG@10 | 0.691 | 0.948 | 0.388 |
+| dense | Recall@10 | 0.443 | 0.583 | 0.315 |
+| dense | MRR@10 | 0.353 | 0.613 | 0.378 |
+| dense | nDCG@10 | 0.304 | 0.566 | 0.255 |
+| hybrid | Recall@10 | 0.620 | 0.773 | 0.495 |
+| hybrid | MRR@10 | 0.703 | 0.850 | 0.525 |
+| hybrid | nDCG@10 | 0.539 | 0.744 | 0.377 |
+| rerank | Recall@10 | 0.773 | 0.902 | 0.530 |
+| rerank | MRR@10 | 0.950 | 0.933 | 0.750 |
+| rerank | nDCG@10 | 0.809 | 0.839 | 0.544 |
 <!-- p2:end own-classes -->
 
 The same scores for the queries you wrote yourself (`hand`) and the ones a model drafted (`claude`), with the difference between the two groups and its interval.
 Once both groups have queries, the table also says whether `bm25`'s lead over `dense` differs between them, and what share of each query's content words its best relevant document contains, which is stretch option 6.
 
 <!-- p2:begin own-origins -->
-_No scored runs here yet: run `uv run p2 run --corpus own --system bm25` (or `--all`), then `uv run p2 score`._
+| System | Metric | hand (n=10) | claude (n=20) | hand minus claude | 95% interval | Reading |
+| --- | --- | ---: | ---: | ---: | ---: | --- |
+| bm25 | Recall@10 | 0.742 | 0.730 | +0.012 | [-0.241, +0.244] | not distinguishable |
+| bm25 | MRR@10 | 0.675 | 0.817 | -0.142 | [-0.400, +0.117] | not distinguishable |
+| bm25 | nDCG@10 | 0.642 | 0.693 | -0.051 | [-0.302, +0.187] | not distinguishable |
+| dense | Recall@10 | 0.617 | 0.363 | +0.254 | [-0.031, +0.525] | not distinguishable |
+| dense | MRR@10 | 0.417 | 0.463 | -0.046 | [-0.352, +0.273] | not distinguishable |
+| dense | nDCG@10 | 0.455 | 0.335 | +0.120 | [-0.155, +0.401] | not distinguishable |
+| hybrid | Recall@10 | 0.742 | 0.573 | +0.169 | [-0.079, +0.398] | not distinguishable |
+| hybrid | MRR@10 | 0.595 | 0.742 | -0.147 | [-0.443, +0.150] | not distinguishable |
+| hybrid | nDCG@10 | 0.577 | 0.542 | +0.035 | [-0.207, +0.274] | not distinguishable |
+| rerank | Recall@10 | 0.875 | 0.665 | +0.210 | [-0.035, +0.414] | not distinguishable |
+| rerank | MRR@10 | 0.850 | 0.892 | -0.042 | [-0.292, +0.175] | not distinguishable |
+| rerank | nDCG@10 | 0.840 | 0.676 | +0.165 | [-0.072, +0.356] | not distinguishable |
+
+The hand and claude queries are different queries, so the interval of hand minus claude comes from resampling the queries within each group (10,000 times), not from pairing them.
+
+Do model-written queries favor keyword search? bm25's lead over dense (bm25 minus dense, per query) on the claude queries and on the hand queries, and claude minus hand:
+
+| Metric | Lead on claude | Lead on hand | Claude minus hand | 95% interval | Reading |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Recall@10 | +0.367 | +0.125 | +0.242 | [-0.041, +0.501] | not distinguishable |
+| MRR@10 | +0.353 | +0.258 | +0.096 | [-0.200, +0.386] | not distinguishable |
+| nDCG@10 | +0.358 | +0.187 | +0.171 | [-0.096, +0.434] | not distinguishable |
+
+Mean content-word overlap, the share of a query's content words found in its best relevant document: hand 0.73 (10 queries), claude 0.80 (20 queries).
+
+Stretch option 6 asks for at least 20 judged queries of each origin; here there are 10 hand and 20 claude.
 <!-- p2:end own-origins -->
 
 Differences between every pair of systems.
 
 <!-- p2:begin own-pairs -->
-_No scored runs here yet: run `uv run p2 run --corpus own --system bm25` (or `--all`), then `uv run p2 score`._
+| Comparison | Metric | Mean difference | 95% interval | MDD | Reading |
+| --- | --- | ---: | ---: | ---: | --- |
+| dense minus bm25 | Recall@10 | -0.287 | [-0.446, -0.140] | 0.223 | bm25 higher |
+| dense minus bm25 | MRR@10 | -0.321 | [-0.492, -0.158] | 0.243 | bm25 higher |
+| dense minus bm25 | nDCG@10 | -0.301 | [-0.462, -0.152] | 0.226 | bm25 higher |
+| hybrid minus bm25 | Recall@10 | -0.105 | [-0.219, -0.001] | 0.160 | bm25 higher |
+| hybrid minus bm25 | MRR@10 | -0.077 | [-0.208, +0.048] | 0.187 | not distinguishable |
+| hybrid minus bm25 | nDCG@10 | -0.122 | [-0.241, -0.015] | 0.165 | bm25 higher |
+| hybrid minus dense | Recall@10 | +0.182 | [+0.089, +0.291] | 0.148 | hybrid higher |
+| hybrid minus dense | MRR@10 | +0.245 | [+0.139, +0.363] | 0.163 | hybrid higher |
+| hybrid minus dense | nDCG@10 | +0.178 | [+0.111, +0.254] | 0.103 | hybrid higher |
+| rerank minus bm25 | Recall@10 | +0.001 | [-0.087, +0.089] | 0.127 | not distinguishable |
+| rerank minus bm25 | MRR@10 | +0.108 | [-0.006, +0.225] | 0.171 | not distinguishable |
+| rerank minus bm25 | nDCG@10 | +0.055 | [-0.050, +0.158] | 0.154 | not distinguishable |
+| rerank minus dense | Recall@10 | +0.288 | [+0.178, +0.410] | 0.169 | rerank higher |
+| rerank minus dense | MRR@10 | +0.430 | [+0.287, +0.577] | 0.209 | rerank higher |
+| rerank minus dense | nDCG@10 | +0.356 | [+0.248, +0.468] | 0.158 | rerank higher |
+| rerank minus hybrid | Recall@10 | +0.106 | [+0.031, +0.187] | 0.115 | rerank higher |
+| rerank minus hybrid | MRR@10 | +0.185 | [+0.077, +0.304] | 0.166 | rerank higher |
+| rerank minus hybrid | nDCG@10 | +0.177 | [+0.098, +0.266] | 0.122 | rerank higher |
+
+The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
 <!-- p2:end own-pairs -->
 
 Which differences are distinguishable and which are not, at your gold-set size?
@@ -259,6 +327,7 @@ Every trace in traces/ that records a Claude call:
 
 | Trace | System | Spans | Claude calls | Saved | Input tokens | Output tokens | Seconds | Input per span | Output per span | Seconds per span |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| traces/own-own-rerank.jsonl | rerank | 30 | 30 | 2 | 243,936 | 5,932 | 131.9 | 8,131 | 198 | 4.4 |
 | traces/shared-practice-rerank.jsonl | rerank | 20 | 20 | 2 | 155,182 | 2,038 | 88.6 | 7,759 | 102 | 4.4 |
 | traces/shared-test-rerank.jsonl | rerank | 40 | 40 | 0 | 327,181 | 4,536 | 176.0 | 8,180 | 113 | 4.4 |
 
@@ -271,6 +340,9 @@ Every pair of systems on the same queries where at least one calls Claude, the o
 | shared practice: bm25 minus rerank | 20 | -0.293 | [-0.533, -0.043] | 7,759 | 4.4 | rerank higher |
 | shared practice: dense minus rerank | 20 | -0.237 | [-0.408, -0.083] | 7,759 | 4.4 | rerank higher |
 | shared practice: hybrid minus rerank | 20 | -0.329 | [-0.504, -0.164] | 7,759 | 4.4 | rerank higher |
+| own: bm25 minus rerank | 30 | -0.108 | [-0.225, +0.006] | 8,131 | 4.4 | not distinguishable |
+| own: dense minus rerank | 30 | -0.430 | [-0.577, -0.287] | 8,131 | 4.4 | rerank higher |
+| own: hybrid minus rerank | 30 | -0.185 | [-0.304, -0.077] | 8,131 | 4.4 | rerank higher |
 
 The difference is the cheaper system's score minus the dearer one's, with its paired interval; the savings count Claude calls only, so a system that makes none saves all of the other's.
 
@@ -278,6 +350,9 @@ Systems that do not call Claude, from traces/retrieval/ on the machine that last
 
 | Trace | System | Queries | Seconds | Milliseconds per query |
 | --- | --- | ---: | ---: | ---: |
+| traces/retrieval/own-own-bm25.jsonl | bm25 | 30 | 0.01 | 0.3 |
+| traces/retrieval/own-own-dense.jsonl | dense | 30 | 0.12 | 3.9 |
+| traces/retrieval/own-own-hybrid.jsonl | hybrid | 30 | 0.14 | 4.5 |
 | traces/retrieval/shared-practice-bm25.jsonl | bm25 | 20 | 0.03 | 1.6 |
 | traces/retrieval/shared-practice-dense.jsonl | dense | 20 | 0.13 | 6.6 |
 | traces/retrieval/shared-practice-hybrid.jsonl | hybrid | 20 | 0.22 | 10.9 |
