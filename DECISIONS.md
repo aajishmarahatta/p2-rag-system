@@ -26,7 +26,7 @@ Commit this answer before your first `uv run p2 score` on the own corpus.
 Git history then shows that the expectation came first, which is what lets it be wrong in a way that teaches you something.
 If you were surprised later, say so in prompt 4 or in EVAL.md; do not come back and rewrite this one.
 
-TODO: your answer to prompt 1.
+I chose my corpus because I regularly follow the NBA and am fairly knowledgeable about its history. I wanted to base this project around a topic I was already familiar with. The Wikipedia biography leads provided consistent, accessible information about players, making it relatively straightforward to judge which documents were relevant to each query across the 300-document corpus. I did not have a specific prediction about which of BM25, Dense, Hybrid, or Rerank would perform best, nor did I document any expectations before scoring. I learned more about how these systems work as I progressed through the project.
 
 ---
 
@@ -41,7 +41,7 @@ If you rejected the alternative without measuring it, say why that was a fair ca
 "There was no alternative" is not an answer.
 Find the fork.
 
-TODO: your answer to prompt 2.
+I chose to test 100-word chunks instead of 300-word chunks (the project baseline) because I wanted to see if smaller chunks would help Dense focus on specific details about a player rather than representing an entire biography in one embedding. In the end, the change increased MRR@10 by only 0.036, with a 95% confidence interval of [-0.101, +0.180], meaning the difference was not distinguishable on this gold set. Therefore, I kept the original 300-word Dense configuration.
 
 ---
 
@@ -57,7 +57,7 @@ What did you do instead?
 If it genuinely never happened, say so plainly, and then say what you would have had to check in order to notice.
 Being honest here costs you far less than a story you cannot defend when you record your video.
 
-TODO: your answer to prompt 3.
+After creating my 10 handwritten queries, I had Claude generate the remaining 20. I made sure to review each query to see whether it made sense and could be answered using the biography leads. I came across four queries (q12, q13, q21, and q29) that were unclear or difficult to answer using the available documents. Instead of accepting them, I asked Claude to revise these queries so that I could make more consistent relevance judgments later.
 
 ---
 
@@ -69,7 +69,7 @@ It could be a mean over a small query class, a difference whose interval include
 What would have to be true for you to trust it?
 Did you do anything to test it, and what did that show?
 
-TODO: your answer to prompt 4.
+Going back to the Dense MRR@10 result from reducing the chunk size from 300 to 100 words, the score increased by 0.036, but the 95% confidence interval for the difference was [-0.101, +0.180]. I mostly trust the calculated result, but I am cautious about concluding that shorter chunks improve retrieval because I only had 30 judged queries, with some improving and others worsening. I tested the two chunk sizes on my own corpus, but a larger or separate evaluation set would help me understand whether shorter chunks consistently improve performance.
 
 ---
 
@@ -80,4 +80,4 @@ One thing in your system, your corpus or your gold set that is not right, not fi
 What would you do next, and how would you find out whether it matters?
 Name the file, the query or the document where someone could look.
 
-TODO: your answer to prompt 5.
+There were two queries (q10 and q25), one written by me and the other by Claude, for which Rerank failed to retrieve any relevant documents, even though those documents existed in my corpus. The relevant documents for q10 were at Hybrid ranks 97 and 116, while those for q25 were at ranks 86 and 109. Since Rerank only considers Hybrid's top 20 documents, it never had the opportunity to rank the correct ones. One possible improvement would be changing the wording of these queries to better match the documents, such as using "undrafted" instead of "never picked." I don't know whether this would improve performance, so I would test the rewritten queries and compare their retrieval results with the originals.
