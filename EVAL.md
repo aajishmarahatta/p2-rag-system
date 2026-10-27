@@ -248,6 +248,8 @@ Change one thing and keep everything else the same.
 Write your hypothesis here before you run it, in one sentence with a direction: "I expect X to raise MRR@10 on my corpus because Y."
 The run file for it lives in `runs/own/ablation/`.
 
+I expect Dense MRR@10 to decrease when reducing the chunk from 300 to 100 words because shorter chunks may focus the embedding on fewer facts instead of representing an entire biography lead at once.
+
 <!-- p2:begin own-ablation -->
 _No ablation runs yet: `uv run p2 run --corpus own --system NAME --ablation` writes one to runs/own/ablation/, then `uv run p2 score` fills this table._
 <!-- p2:end own-ablation -->
