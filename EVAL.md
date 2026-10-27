@@ -116,7 +116,19 @@ Then read three in-corpus answers that `uv run p2 verify` passed.
 For each one, open the cited chunk and say whether the quote really supports the claim next to it.
 The check proves a quote is a real piece of the chunk and cannot prove that it supports the claim, so this reading is the part only you can do.
 
-TODO: write your answer choices and your three-answer audit.
+TODO: write your answer choices (which system answered and why, and whether you changed `prompts/answer.txt`).
+
+Manual review of cited answers. I personally reviewed three in-corpus answers, a01, a04 and a07, and one additional out-of-corpus refusal, a10. These are the only answers I reviewed by hand.
+
+a01 - fully supported. The question was "Within how many minutes must a mine operator call MSHA after an accident that kills a miner?" I compared the generated answer against 30 CFR 50.10, "Immediate notification." The answer correctly says a mine operator must contact MSHA immediately and within 15 minutes once the operator knows or should know that an accident involving a death has occurred. It also correctly gives the toll-free telephone number, 1-800-746-1553. Both generated claims are directly supported by the cited document, cfr30-50.10#0. The first claim accurately reflects the immediate notification requirement, the 15-minute deadline and the telephone number. The second claim correctly identifies a death at the mine as one of the accidents requiring notification, as specified in subsection (a). The wording of the claims closely matches the regulation, and I found no unsupported additions.
+
+a04 - supported. The question was "How often must an underground metal or nonmetal mine hold evacuation drills?" I compared both generated claims against 30 CFR 57.4361. The answer correctly says evacuation drills must occur at least once every six months, as subsection (a) requires. It also correctly says drills must occur for each shift outside shift changes and involve everyone underground, as subsection (b)(1) requires. Both claims are directly supported by their citations, with no unsupported additions.
+
+a07 - supported. The question was "How high must berms or guardrails be on the banks of roadways at metal and nonmetal mines?" I compared the answer against both 30 CFR 56.9300 and 57.9300. Subsection (b) of both regulations says berms or guardrails must be at least mid-axle height of the largest self-propelled mobile equipment that usually travels the roadway, so both citations support the answer. I also noticed that subsection (d) has exceptions for certain infrequently traveled elevated roadways when specific safeguards are present. The answer does not mention these exceptions, but its stated height requirement is correct for situations where berms or guardrails are required.
+
+a10 - appropriate refusal. The question was "At what depth does OSHA require a construction trench to have a protective system such as shoring or a trench box?" The system returned not_found with no claims. I searched the shared corpus myself with `grep -il "trench" corpora/shared/docs/*.md`, `grep -il "shoring" corpora/shared/docs/*.md` and `grep -il "trench box" corpora/shared/docs/*.md`. All three returned no results. This supports the refusal, because the shared corpus covers federal mine-safety regulations and not OSHA construction-trenching requirements. The system avoided answering from unsupported outside knowledge.
+
+Overall: a01 is fully supported, a04 is supported, and a07 is supported with a relevant exception that the answer does not mention, so all three in-corpus answers were supported by their cited evidence. a10 was appropriately declined. `p2 verify` confirmed that the cited quotations exist in their referenced chunks. My manual review additionally checked whether the evidence supports the claims.
 
 ---
 
