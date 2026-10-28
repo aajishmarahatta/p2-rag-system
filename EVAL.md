@@ -188,6 +188,7 @@ Scores per system on your gold set.
 | dense | 0.447 | 0.448 | 0.375 |
 | hybrid | 0.629 | 0.693 | 0.553 |
 | rerank | 0.735 | 0.878 | 0.731 |
+| ablation/bm25_lab | 0.746 | 0.769 | 0.684 |
 | ablation/dense_chunk100 | 0.467 | 0.484 | 0.382 |
 
 30 judged queries; nDCG uses binary labels; a random ranking of the 300 documents would get recall@10 near 0.033.
@@ -210,6 +211,9 @@ The same scores per query class.
 | rerank | Recall@10 | 0.773 | 0.902 | 0.530 |
 | rerank | MRR@10 | 0.950 | 0.933 | 0.750 |
 | rerank | nDCG@10 | 0.809 | 0.839 | 0.544 |
+| ablation/bm25_lab | Recall@10 | 0.787 | 0.975 | 0.475 |
+| ablation/bm25_lab | MRR@10 | 0.808 | 0.933 | 0.567 |
+| ablation/bm25_lab | nDCG@10 | 0.716 | 0.948 | 0.388 |
 | ablation/dense_chunk100 | Recall@10 | 0.337 | 0.770 | 0.294 |
 | ablation/dense_chunk100 | MRR@10 | 0.430 | 0.607 | 0.414 |
 | ablation/dense_chunk100 | nDCG@10 | 0.292 | 0.578 | 0.277 |
@@ -233,6 +237,9 @@ Once both groups have queries, the table also says whether `bm25`'s lead over `d
 | rerank | Recall@10 | 0.875 | 0.665 | +0.210 | [-0.035, +0.414] | not distinguishable |
 | rerank | MRR@10 | 0.850 | 0.892 | -0.042 | [-0.292, +0.175] | not distinguishable |
 | rerank | nDCG@10 | 0.840 | 0.676 | +0.165 | [-0.072, +0.356] | not distinguishable |
+| ablation/bm25_lab | Recall@10 | 0.742 | 0.748 | -0.006 | [-0.251, +0.225] | not distinguishable |
+| ablation/bm25_lab | MRR@10 | 0.675 | 0.817 | -0.142 | [-0.400, +0.117] | not distinguishable |
+| ablation/bm25_lab | nDCG@10 | 0.642 | 0.705 | -0.064 | [-0.312, +0.175] | not distinguishable |
 | ablation/dense_chunk100 | Recall@10 | 0.542 | 0.430 | +0.112 | [-0.200, +0.413] | not distinguishable |
 | ablation/dense_chunk100 | MRR@10 | 0.464 | 0.493 | -0.029 | [-0.339, +0.293] | not distinguishable |
 | ablation/dense_chunk100 | nDCG@10 | 0.440 | 0.353 | +0.087 | [-0.182, +0.364] | not distinguishable |
@@ -275,6 +282,18 @@ Differences between every pair of systems.
 | rerank minus hybrid | Recall@10 | +0.106 | [+0.031, +0.187] | 0.115 | rerank higher |
 | rerank minus hybrid | MRR@10 | +0.185 | [+0.077, +0.304] | 0.166 | rerank higher |
 | rerank minus hybrid | nDCG@10 | +0.177 | [+0.098, +0.266] | 0.122 | rerank higher |
+| ablation/bm25_lab minus bm25 | Recall@10 | +0.012 | [-0.040, +0.075] | 0.081 | not distinguishable |
+| ablation/bm25_lab minus bm25 | MRR@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| ablation/bm25_lab minus bm25 | nDCG@10 | +0.008 | [-0.032, +0.058] | 0.063 | not distinguishable |
+| ablation/bm25_lab minus dense | Recall@10 | +0.298 | [+0.168, +0.444] | 0.201 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus dense | MRR@10 | +0.321 | [+0.158, +0.492] | 0.243 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus dense | nDCG@10 | +0.309 | [+0.170, +0.461] | 0.211 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus hybrid | Recall@10 | +0.117 | [+0.034, +0.217] | 0.136 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus hybrid | MRR@10 | +0.077 | [-0.048, +0.208] | 0.187 | not distinguishable |
+| ablation/bm25_lab minus hybrid | nDCG@10 | +0.131 | [+0.034, +0.242] | 0.151 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus rerank | Recall@10 | +0.011 | [-0.067, +0.091] | 0.114 | not distinguishable |
+| ablation/bm25_lab minus rerank | MRR@10 | -0.108 | [-0.225, +0.006] | 0.171 | not distinguishable |
+| ablation/bm25_lab minus rerank | nDCG@10 | -0.046 | [-0.146, +0.054] | 0.147 | not distinguishable |
 | ablation/dense_chunk100 minus bm25 | Recall@10 | -0.267 | [-0.415, -0.126] | 0.213 | bm25 higher |
 | ablation/dense_chunk100 minus bm25 | MRR@10 | -0.286 | [-0.457, -0.113] | 0.254 | bm25 higher |
 | ablation/dense_chunk100 minus bm25 | nDCG@10 | -0.294 | [-0.443, -0.147] | 0.220 | bm25 higher |
@@ -287,8 +306,11 @@ Differences between every pair of systems.
 | ablation/dense_chunk100 minus rerank | Recall@10 | -0.268 | [-0.391, -0.148] | 0.178 | rerank higher |
 | ablation/dense_chunk100 minus rerank | MRR@10 | -0.394 | [-0.540, -0.256] | 0.207 | rerank higher |
 | ablation/dense_chunk100 minus rerank | nDCG@10 | -0.349 | [-0.469, -0.229] | 0.174 | rerank higher |
+| ablation/dense_chunk100 minus ablation/bm25_lab | Recall@10 | -0.279 | [-0.424, -0.140] | 0.210 | ablation/bm25_lab higher |
+| ablation/dense_chunk100 minus ablation/bm25_lab | MRR@10 | -0.286 | [-0.457, -0.113] | 0.254 | ablation/bm25_lab higher |
+| ablation/dense_chunk100 minus ablation/bm25_lab | nDCG@10 | -0.302 | [-0.445, -0.159] | 0.214 | ablation/bm25_lab higher |
 
-The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
+The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time. Two systems that score the same on every query have no interval to speak of, so their MDD is shown as -.
 <!-- p2:end own-pairs -->
 
 Which differences are distinguishable and which are not, at your gold-set size?
@@ -331,6 +353,18 @@ I expect Dense MRR@10 to decrease when reducing the chunk from 300 to 100 words 
 <!-- p2:begin own-ablation -->
 | Comparison | Metric | Mean difference | 95% interval | MDD | Reading |
 | --- | --- | ---: | ---: | ---: | --- |
+| ablation/bm25_lab minus bm25 | Recall@10 | +0.012 | [-0.040, +0.075] | 0.081 | not distinguishable |
+| ablation/bm25_lab minus bm25 | MRR@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| ablation/bm25_lab minus bm25 | nDCG@10 | +0.008 | [-0.032, +0.058] | 0.063 | not distinguishable |
+| ablation/bm25_lab minus dense | Recall@10 | +0.298 | [+0.168, +0.444] | 0.201 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus dense | MRR@10 | +0.321 | [+0.158, +0.492] | 0.243 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus dense | nDCG@10 | +0.309 | [+0.170, +0.461] | 0.211 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus hybrid | Recall@10 | +0.117 | [+0.034, +0.217] | 0.136 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus hybrid | MRR@10 | +0.077 | [-0.048, +0.208] | 0.187 | not distinguishable |
+| ablation/bm25_lab minus hybrid | nDCG@10 | +0.131 | [+0.034, +0.242] | 0.151 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus rerank | Recall@10 | +0.011 | [-0.067, +0.091] | 0.114 | not distinguishable |
+| ablation/bm25_lab minus rerank | MRR@10 | -0.108 | [-0.225, +0.006] | 0.171 | not distinguishable |
+| ablation/bm25_lab minus rerank | nDCG@10 | -0.046 | [-0.146, +0.054] | 0.147 | not distinguishable |
 | ablation/dense_chunk100 minus bm25 | Recall@10 | -0.267 | [-0.415, -0.126] | 0.213 | bm25 higher |
 | ablation/dense_chunk100 minus bm25 | MRR@10 | -0.286 | [-0.457, -0.113] | 0.254 | bm25 higher |
 | ablation/dense_chunk100 minus bm25 | nDCG@10 | -0.294 | [-0.443, -0.147] | 0.220 | bm25 higher |
@@ -344,13 +378,15 @@ I expect Dense MRR@10 to decrease when reducing the chunk from 300 to 100 words 
 | ablation/dense_chunk100 minus rerank | MRR@10 | -0.394 | [-0.540, -0.256] | 0.207 | rerank higher |
 | ablation/dense_chunk100 minus rerank | nDCG@10 | -0.349 | [-0.469, -0.229] | 0.174 | rerank higher |
 
-The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
+The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time. Two systems that score the same on every query have no interval to speak of, so their MDD is shown as -.
 <!-- p2:end own-ablation -->
 
 The queries your ablation helped and hurt, against the system it varies, by reciprocal rank.
 `p2 score` finds that system from a line such as `BASE = "bm25"` in your variant's file, or else from its name: `bm25_lab` varies `bm25`.
 
 <!-- p2:begin own-ablation-queries -->
+ablation/bm25_lab against bm25 (BASE = "bm25" in p2/retrievers/bm25_lab.py): it helped 0 queries, hurt 0 and left 30 unchanged.
+
 ablation/dense_chunk100 against dense (BASE = "dense" in p2/retrievers/dense_chunk100.py): it helped 10 queries, hurt 9 and left 11 unchanged.
 
 | Query | Class | Origin | dense RR | ablation/dense_chunk100 RR | Change | Effect |
@@ -513,6 +549,7 @@ Systems that do not call Claude, from traces/retrieval/ on the machine that last
 
 | Trace | System | Queries | Seconds | Milliseconds per query |
 | --- | --- | ---: | ---: | ---: |
+| traces/retrieval/own-own-ablation-bm25_lab.jsonl | bm25_lab | 30 | 0.01 | 0.3 |
 | traces/retrieval/own-own-ablation-dense_chunk100.jsonl | dense_chunk100 | 30 | 0.13 | 4.2 |
 | traces/retrieval/own-own-bm25.jsonl | bm25 | 30 | 0.01 | 0.3 |
 | traces/retrieval/own-own-dense.jsonl | dense | 30 | 0.12 | 3.9 |
