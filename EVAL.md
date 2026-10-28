@@ -576,6 +576,26 @@ Write the five things here.
 
 I expect BM25 MRR@10 to decrease when switching from the `codes` tokenizer to the `lab` tokenizer because splitting compound terms like 'three-point' and 'player-coach' may make it harder to retrieve biographies that contain those specific phrases.
 
+1. The option: Stretch Option 4, a second ablation of a different kind. My first ablation changed the chunk size of Dense (section 5), so this one changes a different part of the pipeline, the text processing of BM25.
+
+2. What I did: I changed BM25's tokenizer from `codes` to `lab` and kept every other setting the same (k1 0.9, b 0.4, 300-word chunks with 50 overlap). The `lab` tokenizer splits compound terms such as "three-point" and "player-coach" into separate words, while `codes` keeps the whole compound as a token and also adds its parts. The variant is in `p2/retrievers/bm25_lab.py` (`BASE = "bm25"`) and its run is `runs/own/ablation/bm25_lab.trec`. I committed the hypothesis above in `ca65145` before I created or ran the variant.
+
+3. The tables: the `own-ablation` and `own-ablation-queries` tables in section 5 hold the scores, the paired intervals against every system and the per-query comparison with `bm25`.
+
+4. What the intervals support: the results did not support my prediction. BM25 MRR@10 stayed exactly the same at 0.769, so its difference was 0.000 with a paired interval of [0.000, 0.000]; the first relevant document stayed at the same rank for all 30 queries, so there is no spread to resample and the table reads "identical on every query". Recall@10 went from 0.734 to 0.746, a difference of +0.012 with the interval [-0.040, +0.075] (MDD 0.081), and nDCG@10 went from 0.676 to 0.684, a difference of +0.008 with the interval [-0.032, +0.058] (MDD 0.063). Both intervals include zero, so these differences are not distinguishable on this gold set. I cannot say that either tokenizer is better, and I cannot claim the tokenizer made no difference to BM25, only that it did not change MRR@10 here.
+
+The assignment asks me to read the two queries it helped most and the two it hurt most. By MRR@10 there are none: the `own-ablation-queries` table shows 0 helped, 0 hurt and 30 unchanged against `bm25`. The ranking lists did change on other metrics for a few queries, and I am not adding cases to fill the quota of two and two. Only q22 improved substantially on Recall@10 and nDCG@10, only q19 declined substantially on them, and q24 had a minor nDCG@10 decline.
+
+- q19 ("Served as player-coach in the final seasons of his playing career"): Recall@10 decreased from 1.000 to 0.600, and nDCG@10 from 0.990 to 0.666. The `codes` tokenizer preserved "player-coach" as a complete token, which appears in the relevant biographies (5 of the 300 leads contain it, and all 5 are the ones I judged relevant). Splitting this term may have weakened the matching, and two of those relevant documents left the top 10. This fits my hypothesis.
+- q22 ("Players with Dominican, Jamaican or U.S. Virgin Islands roots"): Recall@10 increased from 0.250 to 1.000, and nDCG@10 from 0.390 to 0.971. The `codes` tokenizer preserved "u.s" as a token, which appeared in many unrelated biographies (9 of the 10 results under `codes` contained it besides the relevant `tim-duncan`). The `lab` tokenizer removed this compound token, which may have helped more relevant documents enter the top 10. This goes against my hypothesis.
+- q24 ("Inducted into the Basketball Hall of Fame twice"): a relevant document moved from rank 6 to rank 7, a minor nDCG@10 decline from 0.423 to 0.418.
+
+q22 and q19 together account for the whole Recall@10 difference: +0.75 and -0.40 over 30 queries is +0.012. The other compound terms in my queries, including "three-point" in q12, which my hypothesis names, did not change the ranks of the relevant documents.
+
+These are plausible explanations, not proven causes, because I did not isolate the influence of individual tokens. One query pointing each way is also not evidence about the tokenizers in general.
+
+5. What I would do next: test the two tokenizers on a larger, separately judged query set that contains more compound-term queries. It would indicate success if the difference on the relevant metric were consistent and distinguishable (an interval that excludes zero), rather than a few isolated per-query changes like q19 and q22 here.
+
 ---
 
 ## 9. 598E only - repeats and the pre-registered claim
