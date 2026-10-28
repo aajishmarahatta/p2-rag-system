@@ -537,6 +537,8 @@ _No stretch runs yet (stretch option 5): `uv run p2 run --corpus own --queries e
 
 Write the five things here.
 
+I expect BM25 MRR@10 to decrease when switching from the `codes` tokenizer to the `lab` tokenizer because splitting compound terms like 'three-point' and 'player-coach' may make it harder to retrieve biographies that contain those specific phrases.
+
 ---
 
 ## 9. 598E only - repeats and the pre-registered claim
